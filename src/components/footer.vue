@@ -1,10 +1,13 @@
 <template>
   <div>
-    <footer class="footer" :class="this.footer == 'footer-dark' ? 'footer-dark' : ''">
+    <footer
+      class="footer"
+      :class="this.footer == 'footer-dark' ? 'footer-dark' : ''"
+    >
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 footer-copyright text-center">
-            <p class="mb-0">Copyright 2023 © Cuba theme by pixelstrap </p>
+            <p class="mb-0">Copyright 2024</p>
           </div>
         </div>
       </div>
@@ -13,19 +16,18 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapGetters } from "vuex";
 export default {
-  name: 'footerpage',
+  name: "footerpage",
   data() {
     return {
       customizer: false,
-
     };
   },
   computed: {
     ...mapGetters({
-      footer: 'layout/footer'
-    })
-  }
+      footer: "layout/footer",
+    }),
+  },
 };
 </script>

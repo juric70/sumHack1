@@ -1,23 +1,20 @@
 <template>
-    <div>
-
-        <div class="container-fluid">
-            <div class="row widget-grid">
-
-                <PurchaseSaleCard />
-                <OrdersProfitCard />
-                <OverallBalanceCard />
-                <RecentOrdersCard />
-                <ActivitiesCard />
-                <RecentSalesCard />
-                <TimelineCard />
-                <ProAccountCard />
-                <TotalUsersGrowthCard />
-                <PaperNoteCard />
-            </div>
-        </div>
-
+  <div>
+    <div class="container-fluid">
+      <div class="row widget-grid">
+        <PurchaseSaleCard />
+        <OrdersProfitCard />
+        <OverallBalanceCard />
+        <RecentOrdersCard />
+        <ActivitiesCard />
+        <RecentSalesCard />
+        <TimelineCard />
+        <!-- <ProAccountCard /> -->
+        <TotalUsersGrowthCard />
+        <!-- <PaperNoteCard /> -->
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -34,18 +31,18 @@ import TotalUsersGrowthCard from "./default/TotalUsersGrowthCard.vue";
 import PaperNoteCard from "./default/PaperNoteCard.vue";
 
 export default {
-    components: {
-        WelcomeCard,
-        PurchaseSaleCard,
-        OrdersProfitCard,
-        OverallBalanceCard,
-        RecentOrdersCard,
-        ActivitiesCard,
-        RecentSalesCard,
-        TimelineCard,
-        ProAccountCard,
-        TotalUsersGrowthCard,
-        PaperNoteCard,
-    },
+  components: {
+    WelcomeCard,
+    PurchaseSaleCard,
+    OrdersProfitCard,
+    OverallBalanceCard,
+    RecentOrdersCard,
+    ActivitiesCard,
+    RecentSalesCard,
+    TimelineCard,
+    ProAccountCard,
+    TotalUsersGrowthCard,
+    PaperNoteCard,
+  },
 };
 </script>
